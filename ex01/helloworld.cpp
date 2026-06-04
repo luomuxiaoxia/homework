@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	cout<<"helloworld";
+	string s;
+	cin>>s;
+	cout<<s;
 	return 0;
 }
