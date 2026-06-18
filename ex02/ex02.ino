@@ -2,7 +2,6 @@
 unsigned long previousMillis = 0;
 const long interval = 1000;   // 1秒
 int ledState = LOW;
-
 void setup() {
   pinMode(ledPin, OUTPUT);
   Serial.begin(115200);
