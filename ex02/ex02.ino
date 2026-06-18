@@ -1,4 +1,4 @@
-const int ledPin = 2;
+#define ledPin 2
 unsigned long previousMillis = 0;
 const long interval = 1000;   // 1秒
 int ledState = LOW;
