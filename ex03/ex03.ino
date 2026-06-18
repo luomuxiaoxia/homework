@@ -1,5 +1,4 @@
 const int ledPin = 2;
-
 // 定义每个闪灯步骤：{持续时间(毫秒), LED电平}
 struct Step {
   unsigned long duration;
